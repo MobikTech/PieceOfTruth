@@ -1,32 +1,34 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
-using UnityEngine.Serialization;
 
-public class MouseLook : MonoBehaviour
+namespace PieceOfTruth
 {
-    [SerializeField] private float _mouseSensitivity = 100f;
-    [SerializeField] private Transform _playerBody;
-    private float _xRotation = 0f;
-
-    private void Start()
+    public class MouseLook : MonoBehaviour
     {
-        Cursor.lockState = CursorLockMode.Locked;
-    }
+        [SerializeField] private float _mouseSensitivity = 100f;
+        [SerializeField] private Transform _playerBody;
+        private float _xRotation = 0f;
 
-    private void Update()
-    {
-        OnMouseMovement();
-    }
+        private void Start()
+        {
+            Cursor.lockState = CursorLockMode.Locked;
+        }
 
-    private void OnMouseMovement()
-    {
-        float mouseX = Mouse.current.delta.x.ReadValue() * _mouseSensitivity * Time.deltaTime;
-        float mouseY = Mouse.current.delta.y.ReadValue() * _mouseSensitivity * Time.deltaTime;
+        private void Update()
+        {
+            OnMouseMovement();
+        }
 
-        _xRotation -= mouseY;
-        _xRotation = Mathf.Clamp(_xRotation, -90f, 90f);
+        private void OnMouseMovement()
+        {
+            float mouseX = Mouse.current.delta.x.ReadValue() * _mouseSensitivity * Time.deltaTime;
+            float mouseY = Mouse.current.delta.y.ReadValue() * _mouseSensitivity * Time.deltaTime;
 
-        transform.localRotation= Quaternion.Euler(_xRotation, 0f, 0f);
-        _playerBody.Rotate(Vector3.up * mouseX);
+            _xRotation -= mouseY;
+            _xRotation = Mathf.Clamp(_xRotation, -90f, 90f);
+
+            transform.localRotation= Quaternion.Euler(_xRotation, 0f, 0f);
+            _playerBody.Rotate(Vector3.up * mouseX);
+        }
     }
 }

@@ -791,6 +791,34 @@
                     "isPartOfComposite": false
                 }
             ]
+        },
+        {
+            "name": "Reality",
+            "id": "2f7a5fdc-9639-4791-ab0d-803279e8a153",
+            "actions": [
+                {
+                    "name": "Change",
+                    "type": "Button",
+                    "id": "44a5e99e-370d-4faa-a045-570d01e978c2",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "6e8d52d2-7b43-4c43-914e-28060544ec7d",
+                    "path": "<Keyboard>/r",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard&Mouse",
+                    "action": "Change",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
         }
     ],
     "controlSchemes": [
