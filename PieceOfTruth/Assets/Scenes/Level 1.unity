@@ -136,7 +136,7 @@ GameObject:
   - component: {fileID: 58440606}
   - component: {fileID: 58440605}
   - component: {fileID: 58440608}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Sphere (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -248,7 +248,7 @@ GameObject:
   - component: {fileID: 226852631}
   - component: {fileID: 226852630}
   - component: {fileID: 226852629}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Platform
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3563,7 +3563,7 @@ GameObject:
   - component: {fileID: 460935121}
   - component: {fileID: 460935120}
   - component: {fileID: 460935123}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3675,7 +3675,7 @@ GameObject:
   - component: {fileID: 527725421}
   - component: {fileID: 527725420}
   - component: {fileID: 527725423}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Sphere (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3787,7 +3787,7 @@ GameObject:
   - component: {fileID: 546651797}
   - component: {fileID: 546651796}
   - component: {fileID: 546651795}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Room1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7765,7 +7765,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1016037692}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: '[Environment]'
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7802,7 +7802,7 @@ GameObject:
   - component: {fileID: 1089251484}
   - component: {fileID: 1089251483}
   - component: {fileID: 1089251486}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7914,7 +7914,7 @@ GameObject:
   - component: {fileID: 1147457213}
   - component: {fileID: 1147457212}
   - component: {fileID: 1147457211}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Room2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12134,7 +12134,7 @@ GameObject:
   - component: {fileID: 1156938139}
   - component: {fileID: 1156938138}
   - component: {fileID: 1156938141}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Sphere
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12280,7 +12280,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!20 &1687258584
 Camera:
   m_ObjectHideFlags: 0
@@ -12384,7 +12384,7 @@ GameObject:
   - component: {fileID: 1723045940}
   - component: {fileID: 1723045939}
   - component: {fileID: 1723045942}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12496,7 +12496,7 @@ GameObject:
   - component: {fileID: 1765942043}
   - component: {fileID: 1765942042}
   - component: {fileID: 1765942045}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Sphere (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12936,7 +12936,7 @@ GameObject:
   - component: {fileID: 1986518250}
   - component: {fileID: 1986518249}
   - component: {fileID: 1986518252}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13035,6 +13035,63 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!1001 &1998788959
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 697831504816057321, guid: 49f9598696206c7459a4ded9a39fcc8d, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 697831504816057321, guid: 49f9598696206c7459a4ded9a39fcc8d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -12.445289
+      objectReference: {fileID: 0}
+    - target: {fileID: 697831504816057321, guid: 49f9598696206c7459a4ded9a39fcc8d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 18.02
+      objectReference: {fileID: 0}
+    - target: {fileID: 697831504816057321, guid: 49f9598696206c7459a4ded9a39fcc8d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -16.37535
+      objectReference: {fileID: 0}
+    - target: {fileID: 697831504816057321, guid: 49f9598696206c7459a4ded9a39fcc8d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 697831504816057321, guid: 49f9598696206c7459a4ded9a39fcc8d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 697831504816057321, guid: 49f9598696206c7459a4ded9a39fcc8d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 697831504816057321, guid: 49f9598696206c7459a4ded9a39fcc8d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 697831504816057321, guid: 49f9598696206c7459a4ded9a39fcc8d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 697831504816057321, guid: 49f9598696206c7459a4ded9a39fcc8d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 697831504816057321, guid: 49f9598696206c7459a4ded9a39fcc8d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 697831504816057323, guid: 49f9598696206c7459a4ded9a39fcc8d, type: 3}
+      propertyPath: m_Name
+      value: First Person Playre
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 49f9598696206c7459a4ded9a39fcc8d, type: 3}
 --- !u!1 &2033015682
 GameObject:
   m_ObjectHideFlags: 0
@@ -13044,7 +13101,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2033015683}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Other
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13086,7 +13143,7 @@ GameObject:
   - component: {fileID: 2123298864}
   - component: {fileID: 2123298863}
   - component: {fileID: 2123298862}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Bridge
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13414,7 +13471,7 @@ Light:
   serializedVersion: 10
   m_Type: 1
   m_Shape: 0
-  m_Color: {r: 1, g: 0.95686275, b: 0.8392157, a: 1}
+  m_Color: {r: 0.29521182, g: 0.31086037, b: 0.5849056, a: 1}
   m_Intensity: 2
   m_Range: 10
   m_SpotAngle: 30

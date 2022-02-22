@@ -130,7 +130,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d59748c18ae13d147b1b92dbae9aa61e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _mouseSensitivity: 100
+  _mouseSensitivity: 20
   _playerBody: {fileID: 697831504816057321}
 --- !u!1 &697831503614196917
 GameObject:
@@ -293,7 +293,7 @@ CharacterController:
   m_Height: 3.8
   m_Radius: 0.6
   m_SlopeLimit: 45
-  m_StepOffset: 0.3
+  m_StepOffset: 0.4
   m_SkinWidth: 0.08
   m_MinMoveDistance: 0.001
   m_Center: {x: 0, y: 0, z: 0}
@@ -341,7 +341,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _controller: {fileID: 697831504816057322}
   _speed: 12
-  _gravity: -9.81
+  _gravity: -19.62
   _groundCheck: {fileID: 697831503614196916}
   _groundDistance: 0.4
   _groundLayerMask:
